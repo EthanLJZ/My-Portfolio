@@ -3,22 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="experience.html">
+    <link rel="stylesheet" href="certificates.html">
     <title>Lee Jun Ze</title>
 </head>
 <body>
     <div class="title">
+        <div class="nav-parent">
+            <div class="topnav">
+                <ul>
+                    <li><a onClick="document.getElementById('skills').scrollIntoView();">Skills</a></li>
+                    <li><a onClick="document.getElementById('experience').scrollIntoView();">Experience</a></li>
+                    <li><a onClick="document.getElementById('competitions').scrollIntoView();">Competitions</a></li>
+                    <li><a onClick="document.getElementById('edusave').scrollIntoView();">Edusave</a></li>
+                </ul>
+            </div>
+        </div>
+
         <br>
+
         <ul>
             <h1>Lee Jun Ze</h1>
             <h2>Mee Toh School</h2>
-            <button onClick="document.getElementById('experience').scrollIntoView();">Experience</button>
-            <button onClick="document.getElementById('competitions').scrollIntoView();">Competitions</button>
         </ul>
         <hr>
-        
     </div>
-    <div class="card">
+    <!-- <div class="card">
         <div class="container_dsa">
           <h3><b>Direct-School Admission</b></h3>
           <p>Hwa Chong</p>
@@ -29,29 +40,58 @@
             <p>Infocomm</p>
         </div>
     </div>
+
+    <hr> -->
+
+    <div class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Photography</li>
+            <div class="photography-bar-white">
+                <div class="photography-bar-black" style="height:28px;width:95%">
+                    95%
+                </div>
+            </div>
+            <br>
+            <li>Web Design & Development</li>
+            <div class="html-bar-white">
+                <div class="html-bar-black" style="height:28px;width:75%">
+                    75%
+                </div>
+            </div>
+            <br>
+            <li>Python</li>
+            <div class="python-bar-white">
+                <div class="python-bar-black" style="height:28px;width:40%">
+                    40%
+                </div>
+            </div>
+        </ul>
+    </div>
+
+    <br>
     
     <div class="experience" id="experience">
+        <br>
+        <h2>Experience</h2>
         <ul>
             <br>
-            <h2>Experience</h2>
-            <ul>
-                <h4><u>Personal Competencies</u></h4>
-                <li>Advanced HTML and CSS Programming 2022</li>
-                <li>Scratch Coding 2019 - 2021</li>
-                <li>Python Programming 2024</li>
-
-                <h4><u>CCA</u></h4>
-                <li>CCA Awareness Day 2022</li>
-                <li>CCA Awareness Day 2023</li>
-                <li>Photography and Videography 2022 - 2024</li>
-                <li>Photo Editing 2023 - 2024</li>
-                <li>AVA (Managing Audio-visual Systems) 2021 - 2024</li>
-
-                <h4><u>Leadership</u></h4>
-                <li>Infocomm CCA Chairperson 2023 - 2024</li>
-            </ul>
+            <h4><u>Personal Competencies</u></h4>
+            <li>Python Programming 2024</li>
+            <li>Advanced HTML and CSS Programming 2022</li>
+            <li> Scratch Coding 2019 - 2021</li>
+            <br>
+            <h4><u>CCA</u></h4>
+            <li>AVA (Managing Audio-visual Systems) 2021 - 2024</li>
+            <li>Photography and Videography 2022 - 2024</li>
+            <li>Photo Editing 2023 - 2024</li>
+            <li>CCA Awareness Day 2023</li>
+            <li>CCA Awareness Day 2022</li>
+            <br>
+            <h4><u>Leadership</u></h4>
+            <li>Infocomm CCA Chairperson 2023 - 2024</li>
         </ul>
-        
+    
     </div>
 
     <hr>
@@ -61,37 +101,83 @@
             <br>
             <h2>Competitions</h2>
             <ul>
-                <h4><u>Personal</u></h4>
-                <li>CodeFest 2022 - Certificate of Participation</li>
-                <ul>
-                    <li>
-                        Using CoSpaces, an AR Creation site, I made a project to solve the 
-                        food wastage problem by making a 3D model of a greenhouse to 
-                        represent climate change.
-                    </li>
-                </ul>
-
                 <h4><u>CCA</u></h4>
-                <li>Our School Our Stories 2023</li>
-                <li>Our School Our Stories 2024</li>
-                <ul>
+                <li><b>Our School Our Stories 2023 & 2024</b></li>
+                <ul style="list-style-type:circle;">
                     <li>
-                        As part of photography, I documented my journey through my school community,
+                        I participated in the Our School, Our Stories Photography competition for 2 consecutive years
+                         in 2023 and 2024. As part of photography, I documented my journey through my school community,
                         showcasing who are the people who make a difference to my life.
                     </li>
                 </ul>
                 <br>
-                <li>North Zone Friendship Hackathon 2022 - Certificate of Participation</li>
-                <ul>
+                <li><b>North Zone Friendship Hackathon 2022 - Certificate of Participation</b></li>
+                <ul style="list-style-type:circle;">
                     <li>
-                        In the group of four with students from other schools, we worked together to
-                        implement Micro:bit to address a real world problem. Despite being from different schools, 
-                        my team and I effectively communicated, collaborated and completed the project.
+                        I participated in North Zone Friendship Hackathon 2022, organised by Montfort Junior
+                        School and achieved the participation award. I was put in a team with three other students from
+                        other schools. We worked on a project using micro:bit. I was grateful for the exposure and
+                        opportunity.
                     </li>
                 </ul>
+                <br>
+                <h4><u>School</u></h4>
+                <li><b>Elementz Science Project Competition & Exhibition</b></li>
+                <ul style="list-style-type:circle;">
+                    <li>
+                        I have worked with my team together to come up with a science investigation to find ways to
+                        solve the climate change crisis and how we could contribute to it. This competition is conducted at
+                        Anderson Secondary School and I earned a certificate of commendation.
+                    </li>
+                </ul>
+                <br>
+                <li><b>Singapore Primary Science Olympiad (SPSO) 2023</b></li>
+                <ul style="list-style-type:circle;">
+                    <li>
+                        I was awarded a Silver medal in the Singapore Primary Science Olympiad (SPSO) 2023. I have
+                        thus grown interest in STEM after exposure to physics, chemistry, biology and mathematics. With
+                        this experience in national competition, I have greater interest and passions for science subjects.
+                    </li>
+                </ul>
+                <br>
+                <h4><u>Personal</u></h4>
+                <li><b>CodeFest 2022 - Certificate of Participation</b></li>
+                <ul style="list-style-type:circle;">
+                    <li>
+                        I achieved certificate of participation for CodeFest 2022 - Virtual Reality Category, organised
+                        by CodeFest. Using CoSpaces, the task was to make virtual reality associate with sustainability.
+                        Not only did I learn about 3D and virtual reality, I also learn more about sustainability.
+                    </li>
+                </ul>
+                <br>
+                
             </ul>
         </ul>
         
+    </div>
+    <hr>
+    <!--Edusave Awards-->
+    <div class="Edusave Awards" id="edusave">
+        <h2>Edusave Awards</h2>
+        <ul>
+            <h3><b><u>2019</u></b></h3>
+            <li>CDC - CCC Education Merit Award 2019</li>
+            <br>
+            <h3><b><u>2020</u></b></h3>
+            <li>Edusave Certificate of Learning Achievement 2020</li>
+            <br><h3><b><u>2021</u></b></h3>
+            <li>Edusave Certificate of Academic Achievement 2021</li>
+            <li>CDC - CCC Education Merit Award 2021</li>
+            <br>
+            <h3><b><u>2022</u></b></h3>
+            <li>Edusave Character Award 2022</li>
+            <li>Edusave Merit Bursary 2022</li>
+            <li>Edusave Certificate of Academic Achievement 2022</li>
+            <br>
+            <h3><b><u>2023</u></b></h3>
+            <li>Edusave Award For Achievemnt, Good Leadership and Service (EAGLES) 2023</li>
+            <li>Edusave Scholarship 2023</li>
+        </ul>
     </div>
 
     <div class="footer">
