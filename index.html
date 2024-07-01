@@ -6,6 +6,21 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="experience.html">
     <link rel="stylesheet" href="certificates.html">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+         $(function () {
+             $('[data-toggle="popover"]').popover()
+         })
+    </script>
+    <script>
+         $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
     <title>Lee Jun Ze</title>
 </head>
 <body>
@@ -18,6 +33,7 @@
                     <li><a onClick="document.getElementById('experience').scrollIntoView();">Experience</a></li>
                     <li><a onClick="document.getElementById('competitions').scrollIntoView();">Competitions</a></li>
                     <li><a onClick="document.getElementById('edusave').scrollIntoView();">Edusave</a></li>
+                    <li><a onClick="document.getElementById('creations').scrollIntoView();">Creations</a></li>
                 </ul>
             </div>
         </div>
@@ -210,7 +226,7 @@
             <li>CDC - CCC Education Merit Award 2021</li>
             <br>
             <h3><b><u>2022</u></b></h3>
-            <li>Edusave Character Award 2022</li>
+            <li>Edusave Character Award (ECHA) 2022</li>
             <li>Edusave Merit Bursary 2022</li>
             <li>Edusave Certificate of Academic Achievement 2022</li>
             <br>
@@ -220,6 +236,65 @@
         </ul>
     </div>
     <br>
+    <hr>
+    <br>
+    <div class="creations" id="creations">
+        
+        <h2>My Creations</h2>
+        <h3><u>Photos</u></h3>
+        <ul>
+            <br>
+            <img src="photos/20230609_100454_IMG_1879.jpg" alt="" style="width: 350px;">
+            <img src="photos/20231213_093337.jpg" alt="" style="width: 350px;">
+            <img src="photos/20231213_124511.jpg" alt="" style="width: 350px;">
+            <img src="photos/20231214_090826.jpg" alt="" style="width: 400px; margin-left: 150px;">
+            <img src="photos/20231217_165135.jpg" alt="" style="width: 400px;">
+            <img src="photos/20240530_074127.jpg" alt="" style="width: 550px;">
+            <img src="photos/20240324_091139.jpg" alt="" style="width: 550px;">
+        </ul>
+        <br>
+        <hr>
+        <h3><u>Scratch Projects</u></h3>
+        <ul>
+            <div class="scratch-card">
+                <img src="photos/costume1.png" alt="" style="width: 400px; border-radius: 10px;">
+                <li><h4>Are you Lucky?</h4></li>
+                <hr>
+                <p>Are you Lucky? is a game I made using Scratch. 
+                <p>The game works by using your sixth-sense</p>
+                <p>to guess what the next shape would be.</p>
+                <a type="button" href="https://scratch.mit.edu/projects/773298956/" target="_blank" style="display: block; float: left;">Click to Play</a>
+            </div>
+            <div class="scratch-card">
+                <img src="photos/costume2.png" alt="" style="width: 400px; border-radius: 10px;">
+                <li><h4>Zombie Shootout</h4></li>
+                <hr>
+                <p>Zombie Shootout is a game I made using Scratch. 
+                <p>The game works by using controls</p>
+                <p>to eliminate zombies that spawn in the game.</p>
+                <a type="button" href="https://scratch.mit.edu/projects/386475183/" target="_blank" style="display: block; float: left;">Click to Play</a>
+            </div>
+            </ul>
+            <br>
+            <hr>
+
+            <!-- <h3><u>Stop-Motion</u></h3>
+            <ul>
+                <div class="stop-motion_video">
+                    <div class="vid-card-1">
+                        <video width="400" height="300" controls>
+                            <source src="photos/20211203_103236_ImportVideo_3880.054056.MOV">
+                        </video>
+                    </div>
+                    <div class="vid-card-2">
+                        <h3>40th Shell Traffic Games 2021</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </ul> -->
+
+        <h3></h3>
+    </div>
 
     <div class="footer">
         <p><i>Made using HTML and CSS, by Lee Jun Ze</i></p>
