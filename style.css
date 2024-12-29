@@ -150,3 +150,55 @@ a {
     text-align: left;
     margin-left: 20px;
 }
+
+.scratch-card a {
+    text-decoration: none;
+    background-color: #353f4f;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.scratch-card a:hover {
+    text-decoration: none;
+    background-color: #4f5d75;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.home-nav {
+    float: left;
+}
+
+.back-to-top a {
+    float: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.back-to-top a:hover, .back-to-top-GUI a:hover {
+    color: #949494;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.back-to-top-GUI {
+    background-color: #353f4f;
+    border-radius: 10px;
+    position: fixed;
+    float: right;
+    text-align: center;
+    padding-bottom: 20px;
+    box-shadow: black, 10px;
+    margin-bottom: 10px;
+    border-bottom: 100px;
+}
+
+.back-to-top-GUI a {
+    padding: 10px;
+    float: right;
+    padding-bottom: 20px;
+    text-align: left;
+}
